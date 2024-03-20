@@ -3,12 +3,11 @@
 {% block title %}Home - Law Firm{% endblock %}
 
 {% block content %}
-<img src="https://kglawms.com/wp-content/uploads/2018/09/Kevin-Gay-Attorney-Services-2.jpg" alt="Contact Image"
+<img src="{{ url_for('static', filename='image/banner.jpg') }}" alt="Contact Image"
   class="img-fluid">
-<div class="container">
+  <div class="container mt-5">
   <section>
     <div class="text-center">
-
       <h1>Gallery</h1>
       <hr class="mb-4">
     </div>
@@ -40,24 +39,24 @@
       <div class="container">
         <div class="row mb-2">
           <div class="col-md-4 d-flex justify-content-center">
-            <img src="https://picsum.photos/700" class="img-fluid m-1" alt="Image 1">
+            <img src="{{ url_for('static', filename='image/700.webp') }}" class="img-fluid m-1" alt="Image 1">
           </div>
           <div class="col-md-4 d-flex justify-content-center">
-            <img src="https://picsum.photos/700" class="img-fluid m-1" alt="Image 2">
+            <img src="{{ url_for('static', filename='image/700.webp') }}" class="img-fluid m-1" alt="Image 2">
           </div>
           <div class="col-md-4 d-flex justify-content-center">
-            <img src="https://picsum.photos/700" class="img-fluid m-1" alt="Image 2">
+            <img src="{{ url_for('static', filename='image/700.webp') }}" class="img-fluid m-1" alt="Image 2">
           </div>
         </div>
         <div class="row mb-2">
           <div class="col-md-4 d-flex justify-content-center">
-            <img src="https://picsum.photos/700" class="img-fluid m-1" alt="Image 1">
+            <img src="{{ url_for('static', filename='image/974-700x700.jpg') }}" class="img-fluid m-1" alt="Image 1">
           </div>
           <div class="col-md-4 d-flex justify-content-center">
-            <img src="https://picsum.photos/700" class="img-fluid m-1" alt="Image 2">
+            <img src="{{ url_for('static', filename='image/974-700x700.jpg') }}" class="img-fluid m-1" alt="Image 2">
           </div>
           <div class="col-md-4 d-flex justify-content-center">
-            <img src="https://picsum.photos/700" class="img-fluid m-1" alt="Image 2">
+            <img src="{{ url_for('static', filename='image/974-700x700.jpg') }}" class="img-fluid m-1" alt="Image 2">
           </div>
         </div>
         

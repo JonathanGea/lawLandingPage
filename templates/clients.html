@@ -3,49 +3,88 @@
 {% block title %}Home - Law Firm{% endblock %}
 
 {% block content %}
-<section>
-  <a>clients</a>
-</section>
+<img src="{{ url_for('static', filename='image/banner.jpg') }}" alt="Contact Image" class="img-fluid">
+<div class="container mt-5">
+  <section>
+    <div class="text-center ">
+      <h1>Our Clients</h1>
+      <hr class="mb-4">
+    </div>
 
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
+    <div class="container text-center">
+      <div class="row">
+        <div class="col-lg-3">
+          <div class="client">
+            <img width="300" src="{{ url_for('static', filename='image/ourClient/1.png') }} " alt="" loading="lazy">
+            <div class="caption">
+              <div>Mandiri</div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3">
+          <div class="client">
+            <img width="300" src="{{ url_for('static', filename='image/ourClient/2.png') }} " alt="" loading="lazy">
+            <div class="caption">
+              <div>BANK BRI</div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3">
+          <div class="client">
+            <img width="300" src="{{ url_for('static', filename='image/ourClient/3.png') }} " alt="" loading="lazy">
+            <div class="caption">
+              <div>WASKITA</div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3">
+          <div class="client">
+            <img width="300" src="{{ url_for('static', filename='image/ourClient/4.png') }} " alt="" loading="lazy">
+            <div class="caption">
+              <div>LPEI</div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-lg-3">
+          <div class="client">
+            <img width="300" src="{{ url_for('static', filename='image/ourClient/5.png') }} " alt="" loading="lazy">
+            <div class="caption">
+              <div>Mandiri</div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3">
+          <div class="client">
+            <img width="300" src="{{ url_for('static', filename='image/ourClient/6.png') }} " alt="" loading="lazy">
+            <div class="caption">
+              <div>Mandiri</div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3">
+          <div class="client">
+            <img width="300" src="{{ url_for('static', filename='image/ourClient/1.png') }} " alt="" loading="lazy">
+            <div class="caption">
+              <div>Mandiri</div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3">
+          <div class="client">
+            <img width="300" src="{{ url_for('static', filename='image/ourClient/2.png') }} " alt="" loading="lazy">
+            <div class="caption">
+              <div>Mandiri</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
 
-{% endblock %}
+  </section>
+
+ 
+  <br>
+
+  {% endblock %}
